@@ -1,135 +1,27 @@
-# Interactive-World-Map
-Here is an Interactive World Map that I have created using Angular, SCSS, HTML, and Typescript
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Develop an Interactive World Map
-Throughout your career in software engineering, you will be asked to enhance website functionality using JavaScript programming in conjunction with existing frameworks, assets, and web content. For this assessment, you will enhance a website using the Angular JavaScript framework and various application programming interfaces (APIs) by creating a visual interface for a scalable vector graphic (SVG) map.
+# WorldMap
 
-The skills you demonstrate in this task will be useful in responding to technical interview questions for future employment. This website may also be added to your portfolio.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 
-The required integrated development environment (IDE) and APIs for this assignment are Visual Studio Code, GeoNames, and Worldbank. Install the IDE and access the APIs using these sources.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Scenario
-You are a developer for a state government office. On a previous project, your supervisor asked you to build a website with several pages related to a geographic area in the United States. Now your supervisor wants you to expand on this site and provide a website that provides information on each country in the world.
+## Development server
 
-Your task is to present a map of the world in an SVG format so that each country is highlighted upon a mouse event. Then you will convert the SVG map into an interactive Angular component and connect the application to API services to provide the country information.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Screenshot of World Map created  ![image](https://github.com/user-attachments/assets/0a592528-5fba-4a3c-8e7c-bc2f10424e69)
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Below are the instructions provided and guidelines for completing the task:
+## Build
 
-Identify an SVG map of the world you will use to provide the visual interface for this project.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Using either the GeoNames  or Worldbank  API, identify each of the following six properties for each country:
-    country name (e.g., Chad)
-    country capital (e.g., N’Djamena)
-    country region (e.g., Sub-Saharan Africa)
-    income level (e.g., low income)
-two additional country properties of your choice
+## Running unit tests
 
-Assign the map component to the default URL using an Angular routing module.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Create an HTML layout with two columns: one column for the map itself and one column to show the required country information from the API in part B.
+## Running end-to-end tests
 
-Convert the SVG map into an interactive Angular component by connecting all the “path” tags inside the SVG file to mouse event handlers, so each path is recognized and transmitted to the parent component hosting the map if a mouse event occurs.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-Generate an API service that uses the built-in Angular module HTTP client to make HTTP calls and include the following:
-one method that accepts a country name as an input parameter that returns additional information gathered from the API for the selected country
-one method that will trigger the API call when a country is selected and set a local variable that will receive the information about the country for display in the right column of the HTML page
+## Further help
 
-Provide a compressed file of your website, including each of the following files:
-    HTML
-    TS
-    SVG
-    JSON configuration files
-    
-Acknowledge sources, using in-text citations and references, for content that is quoted, paraphrased, or summarized.
-
-Demonstrate professional communication in the content and presentation of your submission.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Rubric
-Review each of the rubric categories and then check out the three possible rankings:
-
-Not Evident (your ability to demonstrate the course competency in this assessment is not evident)
-Approaching Competence (your competency in this area is still developing)
-Competent (you have successfully demonstrated competency in this area)
- You must achieve a ranking of Competent on each task to pass the course.
-Category
-Not Evident
-Approaching Competence
-Competent
-A: Identify an SVG
-
-The submission does not identify an SVG map of the world to provide the visual interface.
-
-Not applicable.
-
-The submission identifies an SVG map of the world to provide the visual interface.
-
-B: API Web Links
-
-An API is not identified.
-
-The API identified is not listed in the Web Links section. Or the API does not provide all 6 of the given properties for each country.
-
-The API identified is listed in the Web Links section and contains all 6 properties for each country.
-
-C: Angular Routing Module
-
-The map component is not assigned to the default URL.
-
-The map component is assigned to the default URL but does not use an Angular routing module.
-
-The map component is assigned to the default URL using an Angular routing module.
-
-D: HTML Layout
-
-An HTML layout is not created.
-
-The HTML layout is created but does not provide both columns, 1 for the map itself and 1 to show the required country information from the API in Category B.
-
-The HTML layout is created and includes 2 columns, 1 column for the map itself and 1 column to show the required country information from the API in Category B.
-
-E: Conversion to Angular Component
-
-The SVG map is not converted into an interactive Angular component.
-
-The SVG map is converted into an interactive Angular component, but 1 or more of the "path" tags inside the SVG file are not connected to mouse event handlers. Or the map does not function correctly.
-
-The SVG map is converted into an interactive Angular component with all of the "path" tags inside the SVG file connected to mouse event handlers so that each path is transmitted to the parent component hosting the map. The map functions correctly.
-
-F: API Service
-
-An API service is not generated.
-
-The API service does not use the built-in Angular module HTTP client to make HTTP calls. Or the API service does not include both required methods. Or 1 or both of the required methods do not function correctly.
-
-The API service is generated and uses the built-in Angular module HTTP client to make HTTP calls and includes both required methods, and both methods function correctly.
-
-G: Compressed File
-
-The submission does not provide a compressed file of the website.
-
-The submission provides a compressed file of the website but does not include each of the 4 required files.
-
-The submission provides a compressed file of the website and includes each of the 4 required files.
-
-H: Sources
-
-The submission does not include both in-text citations and a reference list for sources that are quoted, paraphrased, or summarized.
-
-The submission includes in-text citations for sources that are quoted, paraphrased, or summarized and a reference list; however, the citations or reference list is incomplete or inaccurate.
-
-The submission includes in-text citations for sources that are properly quoted, paraphrased, or summarized and a reference list that accurately identifies the author, date, title, and source location as available.
-
-I: Professional Communication 
-
-Content is unstructured, is disjointed, or contains pervasive errors in mechanics, usage, or grammar. Vocabulary or tone is unprofessional or distracts from the topic.
-
-Content is poorly organized, is difficult to follow, or contains errors in mechanics, usage, or grammar that cause confusion. Terminology is misused or ineffective.
-
-Content reflects attention to detail, is organized, and focuses on the main ideas as prescribed in the task or chosen by the candidate. Terminology is pertinent, is used correctly, and effectively conveys the intended meaning. Mechanics, usage, and grammar promote accurate interpretation and understanding.
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
