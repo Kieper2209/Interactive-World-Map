@@ -15,7 +15,8 @@ Your task is to present a map of the world in an SVG format so that each country
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Screenshot of World Map created  ![interactive world map screenshot](https://github.com/user-attachments/assets/a5028374-3c7b-4fad-8b50-7f7104d00251)
+Screenshot of World Map created  ![image](https://github.com/user-attachments/assets/0a592528-5fba-4a3c-8e7c-bc2f10424e69)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Below are the instructions provided and guidelines for completing the task:
 
