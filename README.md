@@ -1,9 +1,23 @@
 # Interactive-World-Map
 Here is an Interactive World Map that I have created using Angular, SCSS, HTML, and Typescript
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Develop an Interactive World Map
+Throughout your career in software engineering, you will be asked to enhance website functionality using JavaScript programming in conjunction with existing frameworks, assets, and web content. For this assessment, you will enhance a website using the Angular JavaScript framework and various application programming interfaces (APIs) by creating a visual interface for a scalable vector graphic (SVG) map.
 
+The skills you demonstrate in this task will be useful in responding to technical interview questions for future employment. This website may also be added to your portfolio.
+
+The required integrated development environment (IDE) and APIs for this assignment are Visual Studio Code, GeoNames, and Worldbank. Install the IDE and access the APIs using these sources.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scenario
+You are a developer for a state government office. On a previous project, your supervisor asked you to build a website with several pages related to a geographic area in the United States. Now your supervisor wants you to expand on this site and provide a website that provides information on each country in the world.
+
+Your task is to present a map of the world in an SVG format so that each country is highlighted upon a mouse event. Then you will convert the SVG map into an interactive Angular component and connect the application to API services to provide the country information.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Screenshot of World Map created  ![interactive world map screenshot](https://github.com/user-attachments/assets/a5028374-3c7b-4fad-8b50-7f7104d00251)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Below are the instructions provided and guidelines to completing the task:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Below are the instructions provided and guidelines for completing the task:
 
 Identify an SVG map of the world you will use to provide the visual interface for this project.
 
